@@ -4,7 +4,6 @@ import { useHistory } from 'react-router-dom';
 import './TabelaProdutos.css'
 
 export default props => {
-    const [vendas, setVendas] = useState([]);
     const [vendasItems, setVendasItems] = useState([]);
     const history = useHistory();
     const token = localStorage.getItem('token');

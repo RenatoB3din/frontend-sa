@@ -1,0 +1,41 @@
+.relatorio-container {
+    width: 100%;
+    max-width: 1120px;
+    height: 100vh;
+    margin: 20px auto;
+}
+
+.relatorio-container .content {
+    width: 100%;
+    padding: 25px;
+    padding-top: 30px;
+    background: #f0f0f5;
+    box-shadow: 0 0 100px rgba(0,0,0, 0.1);
+    border-radius: 8px;
+    display: flex;
+}
+
+
+.relatorio-container .content section {
+    width: 100%;
+}
+
+.relatorio-container .content section h1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    font-size: 32px;
+}
+
+.relatorio-container .content h1 {
+    justify-content: center;
+    margin-bottom: 15px;
+    font-size: 32px;
+}
+
+
+.Cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

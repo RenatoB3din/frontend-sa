@@ -1,0 +1,84 @@
+.movinventory-container {
+    width: 100%;
+    max-width: 1120px;
+    height: 100vh;
+    margin: 20px auto;
+}
+
+.movinventory-container .content {
+    width: 100%;
+    padding: 96px;
+    padding-top: 30px;
+    background: #f0f0f5;
+    box-shadow: 0 0 100px rgba(0,0,0, 0.1);
+    border-radius: 8px;
+    display: flex;
+}
+
+.movinventory-container .content section {
+    width: 100%;
+}
+
+.movinventory-container .content section h1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    font-size: 32px;
+}
+
+.movinventory-container .content form, fieldset {
+    width: 100%;
+}
+
+.movinventory-container .content input, select {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.movinventory-container .content form .input-group{
+    display: flex;
+    width: 100%;
+}
+
+.movinventory-container .content form .input-group input + input{
+    margin-left: 8px
+}
+
+.movinventory-container .content form .input-group fieldset + fieldset{
+    margin-left: 8px
+}
+
+.movinventory-container .content form .input-group fieldset + fieldset + fieldset{
+    margin-left: 8px
+}
+
+.movinventory-container .content form .input-group fieldset{
+    border: 0;
+    margin-left: 8px;
+}
+
+.movinventory-container .content form fieldset{
+    border: 0;
+    margin-left: 8px;
+}
+
+.movinventory-container .content form .operacaoProduto{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.movinventory-container .content form .operacaoProduto button{
+    height: 40px;
+    margin-left: 8px;
+}
+   
+
+#img_nf {
+    padding-top: 13px;
+}
+
+#realizarMovimento{
+    background-color: #19a347;
+}
+

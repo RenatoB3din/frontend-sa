@@ -19,7 +19,7 @@ export default props => {
     }
 
     function refreshPage() {
-        window.location.href = "http://www.localhost:3000/relatorio";
+        window.location.href = "https://rs-pdv-front.herokuapp.com/relatorio";
     }
 
 
